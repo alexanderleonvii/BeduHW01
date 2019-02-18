@@ -1,0 +1,121 @@
+body{
+  background-color: rgb(160,160,225);
+}
+
+.header{
+  background-color: navy;
+  height: 80px;
+  padding-top: 20px;
+  vertical-align: center;
+}
+
+h1{
+  display: block;
+  text-align: center;
+  /* padding-top: 20px; */
+  margin: 0;
+  color: white;
+  font-family: 'Indie Flower', cursive;
+}
+
+h2{
+  font-family: 'Indie Flower', cursive;
+}
+.main-first-half{
+  width:69%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.main-figure{
+  display: inline-block;
+  width: 40%;
+  margin: 0;
+  vertical-align: center;
+  /* height: 50%; */
+}
+
+.main-figure img{
+  width: 95%;
+  height: 95%;
+  vertical-align: center;
+}
+
+.main-text{
+  display: inline-block;
+  width: 59%;
+  vertical-align: top;
+  /* height: 65%; */
+}
+
+.main-paragraph{
+  margin: 0;
+}
+
+.main-second-half{
+  width:29%;
+  display: inline-block;
+}
+
+.menu-figure{
+  width: 95%;
+  height: 95%;
+  align-content: center;
+}
+
+.menu-figure img{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  /* height: 80%; */
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #a3cae4d7;
+  min-width: 300px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 22px;
+  font-family: 'Indie Flower', cursive;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+/* .main-second-half:hover{
+  margin-bottom: 400px;
+} */
+
+.main-second-half:hover .dropdown-content {display: inline-block;}
+
+.main-second-half:hover .menu-figure{
+  width: 150px;
+  height: 150px;
+  margin: 0;
+  margin-bottom: 200px;
+  align-content: center;
+  display: inline-block;
+  transition: width 0.5s;
+}
+
+#main-list{
+  color: navy;
+}
+
+.footer{
+  background-color: navy;
+  height: 70px;
+  padding-top: 20px;
+  padding-left: 20px;
+  vertical-align: center;
+  color: white;
+}

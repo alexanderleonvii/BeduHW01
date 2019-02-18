@@ -1,0 +1,60 @@
+body{
+  background-color: rgb(225,225,225);
+}
+
+.merc_header{
+  background-color: pink;
+  height: 80px;
+  padding-top: 20px;
+  vertical-align: center;
+  display: block;
+}
+
+h1{
+  display: block;
+  text-align: center;
+  /* padding-top: 20px; */
+  margin: 0;
+  color: white;
+  font-family: 'Indie Flower', cursive;
+}
+
+h2{
+  font-family: 'Indie Flower', cursive;
+}
+.merc_section{
+  width:100%;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.left{
+  width:59%;
+  display: inline-block;
+  text-align: justify;
+}
+
+.right{
+  width:40%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.merc_figure{
+  margin:10%;
+  /* margin-bottom: 0%; */
+  vertical-align: middle;
+
+}
+
+.merc_img{
+  width: 100%
+}
+
+footer{
+  background-color: pink;
+  height: 70px;
+  padding-top: 20px;
+  vertical-align: center;
+  color: white;
+}

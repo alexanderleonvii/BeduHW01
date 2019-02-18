@@ -1,0 +1,47 @@
+body{
+  background-color: rgb(225,225,160);
+}
+
+.sun_header{
+  background-color: #000;
+  height: 80px;
+  padding-top: 20px;
+  vertical-align: center;
+  display: block;
+}
+
+h1{
+  display: block;
+  text-align: center;
+  /* padding-top: 20px; */
+  margin: 0;
+  color: white;
+  font-family: 'Indie Flower', cursive;
+}
+
+h2{
+  font-family: 'Indie Flower', cursive;
+}
+.sun_section{
+  width:100%;
+  margin-bottom: 20px;
+}
+
+.sun_figure{
+  margin:10%;
+  margin-bottom: 0%;
+  vertical-align: middle;
+
+}
+
+.sun_img{
+  width: 100%
+}
+
+footer{
+  background-color: black;
+  height: 70px;
+  padding-top: 20px;
+  vertical-align: center;
+  color: white;
+}
